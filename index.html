@@ -31,7 +31,7 @@
     <script>
         function ValidadPass() {
             let dato = document.getElementsByName('pass')[0].value;
-            let resultado = /^[A-Z][0-9][0-9][0-9][a-z][a-z][a-z][.*+\-!¿¡?^${}()|[\]\\][.*+\-!¿¡?^${}()|[\]\\][.*+\-!¿¡?^${}()|[\]\\]$/.test(dato);
+            let resultado = /^[A-Z][0-9][0-9][0-9][a-z][a-z][a-z][.;:*+\-!¿¡?^${}()|[\]\\][.;:*+\-!¿¡?^${}()|[\]\\][.;:*+\-!¿¡?^${}()|[\]\\]$/.test(dato);
             if (resultado) {
                 alert('Contraseña Correcta');    
             }else{
